@@ -1,0 +1,116 @@
+:root {
+    --outer-space: #394648ff;
+    --tropical-indigo: #9d8df1ff;
+    --periwinkle: #b8cdf8ff;
+    --aquamarine: #95f2d9ff;
+    --aquamarine-2: #1cfebaff;
+    --headerfont: Arial;
+    --addfont: Helvetica;
+}
+/*General Style*/
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: var(--outer-space);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+/*Header and Nav Style*/
+header {
+    color: var(--nyanza);
+    margin-left: 0px;
+    padding: 15px;
+    background-color: var(--tropical-indigo);
+    color: var(--aquamarine-2);
+}
+
+header nav {
+    float: right;
+}
+
+header h1 {
+    display:inline-block;
+    font-size: 30px;
+}
+
+.profile-pic {
+    float: left;
+    width: 75px;
+    height: 75px;
+    margin-right: 20px;
+    border-radius: 70%;
+}
+nav ul {
+    list-style:none;
+    margin: auto;
+    padding: 5px;
+    font-size: 20px;
+}
+
+nav li {
+    float:left;
+}
+
+nav a {
+    display:block;
+    padding: 5px;
+    color: var(--periwinkle);
+}
+/*Main Style*/
+main {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    padding-right: 5px;
+    padding-left: 5px;
+    flex-direction: column;
+}
+main section{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 10px;
+    flex-direction: row;
+    padding: 80px;
+}
+section h2 {
+    width:100px;
+    border-right-style:solid;
+    border-color: var(--periwinkle);
+    color: var(--periwinkle);
+    font-size: large;
+}
+section p{
+/* About Me Style*/   
+}
+.about {
+/* Work Style*/    
+    
+}
+.work {
+
+}
+/* Contact Style*/ 
+.contact {
+
+} 
+
+
+pre {
+    gap: 10px;
+    gap: 10px 20px;
+    row-gap: 10px;
+    column-gap: 10px;
+    flex-direction: column;
+    padding: 1px;
+    height: auto;
+    width: fit-content;
+    align-content: center;
+    text-align: start;
+}
+
+
+/*Footer Style*/
